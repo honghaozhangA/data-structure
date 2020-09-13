@@ -14,6 +14,6 @@ public class MainApplication {
         SpringApplication.run(MainApplication.class, args);
 
         DataStructure practice = ApplicationContextUtil.getBean(DataStructure.class);
-        practice.executeDataStructure("orderlySingleLinkedList");
+        practice.executeDataStructure("linkedListStack");
     }
 }
